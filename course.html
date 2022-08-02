@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>University Website Design</title>
+  </head>
+  <body>
+    <div class="header-gen">
+      <nav>
+        <a href="index.html"><img src="img/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="showMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars"  onclick="hideMenu()"></i>
+      </nav>
+   </div>
+
+  <section class="cource">
+    <h1>Cources We Offer</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    <div class="row">
+      <div class="course-col">
+        <h3>HTML</h3></br><img src="img/html.jpg">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    <div class="course-col">
+      <h3>CSS</h3></br><img src="img/css.jpg">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    <div class="course-col">
+      <h3>javascript</h3></br><img src="img/java.jpg">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+  </div>
+    </div>
+  </section>
+       <div class="footer-gen">
+         <nav>
+           <div class="nav-links" id="navLinks">
+           <i class="tab"></i>
+             <ul>
+               <li><a href="index.html">HOME</a></li>
+               <li><a href="course.html">COURSE</a></li>
+               <li><a href="contact.html">CONTACT</a></li>
+             </ul>
+           </div>
+         </nav>
+      </div>
+
+<!---javascriptfor toggle menu--->
+   <script>
+     var navLinks = document.getElementById('navLinks')
+     function hideMenu() {
+       navLinks.style.right = "0";
+     }
+     function showMenu() {
+       navLinks.style.right = "-200px";
+     }
+   </script>
+  </body>
+</html>
