@@ -288,11 +288,10 @@ h3{
     align-items: left;
 }
 .campus-row1{
+  display: flex;
   box-sizing: border-box;
   width: 80%;
-  max-width: 98rem;
-  padding: 4rem;
-  box-shadow: 0 0 20px 0 rgba(0,0,0,.2);
+  padding: 1rem;
 
   align-items: center;
   border-radius: .8rem;
